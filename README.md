@@ -56,7 +56,6 @@ notebooks/EDA.ipynb
 ## 🏗️ Project Structure
 
 ML-project/
-│
 ├── data/
 │   ├── raw/
 │   │   └── dataset.csv
@@ -84,6 +83,7 @@ ML-project/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
 
 ---
 
