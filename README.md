@@ -31,15 +31,23 @@ data/raw/
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
-Exploratory Data Analysis was performed to understand:
-- Data distributions
-- Missing values
-- Outliers
-- Feature correlations
+## 🔍 Exploratory Data Analysis & Feature Visualization
+EDA and feature analysis are performed using Python scripts. Visualizations are saved in the `images/` folder:
 
-EDA notebook location:
-notebooks/EDA.ipynb
+### Available Visualizations
+- **Missing Values Heatmap:** `images/missing_values.png`  
+- **Feature Correlation Matrix:** `images/correlation_matrix.png`  
+- **Feature Distributions:** `images/{feature}_distribution.png`  
+- **Feature Importance Plot:** `images/feature_importance.png`  
+
+These scripts are located in `src/`:
+- `eda_visualization.py` → Generates EDA plots  
+- `feature_importance.py` → Generates feature importance plots  
+
+Example:  
+
+![Missing Values](images/missing_values.png)  
+![Feature Importance](images/feature_importance.png)  
 
 ---
 
@@ -50,40 +58,6 @@ notebooks/EDA.ipynb
 - Machine Learning: Scikit-learn
 - Deployment: Flask
 - Version Control: Git and GitHub
-
----
-
-## 🏗️ Project Structure
-
-ML-project/
-├── data/
-│   ├── raw/
-│   │   └── dataset.csv
-│   └── processed/
-│       └── processed_data.csv
-│
-├── notebooks/
-│   └── EDA.ipynb
-│
-├── src/
-│   ├── data_preprocessing.py
-│   ├── model_training.py
-│   ├── model_evaluation.py
-│   └── predict.py
-│
-├── models/
-│   ├── model.pkl
-│   └── scaler.pkl
-│
-├── app/
-│   ├── app.py
-│   └── templates/
-│       └── index.html
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-
 
 ---
 
