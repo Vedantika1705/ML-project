@@ -126,7 +126,6 @@ Evaluation results are printed in the console and supported by confusion matrice
 ## 👩‍💻 Author
 Vedantika Varnekar  
 GitHub: https://github.com/Vedantika1705  
-LinkedIn: Add your LinkedIn profile link here
 
 ---
 
